@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Amor</title>
+    <style>
+        /* Estilos gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #fce4ec;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 20px;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #e91e63;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            color: #d81b60;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1em;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        section img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 30%;
+            margin: 5px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        footer p {
+            font-size: 1.1em;
+        }
+
+        /* Responsividade */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+
+            section img {
+                max-width: 100%;
+            }
+
+            .gallery img {
+                width: 45%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Para o Amor da Minha Vida</h1>
+            <p>Minha jornada com você é o que faz meu coração bater mais forte.</p>
+        </header>
+
+        <section class="about">
+            <h2>Nossa História</h2>
+            <p>Nos conhecemos como o destino quis, e desde então cada momento ao seu lado é pura magia.</p>
+            <img src="nosso_amor.jpg" alt="Nossa foto juntos">
+        </section>
+
+        <section class="memories">
+            <h2>Momentos Inesquecíveis</h2>
+            <div class="gallery">
+                <img src="momento1.jpg" alt="Momento especial 1">
+                <img src="momento2.jpg" alt="Momento especial 2">
+                <img src="momento3.jpg" alt="Momento especial 3">
+            </div>
+        </section>
+
+        <section class="message">
+            <h2>Minha Declaração</h2>
+            <p>Você é a razão de todos os meus sorrisos. A pessoa que me completa e com quem eu quero estar para sempre. Te amo além das palavras.</p>
+        </section>
+
+        <footer>
+            <p>Feito com ♥ para você</p>
+        </footer>
+    </div>
+</body>
+</html>
